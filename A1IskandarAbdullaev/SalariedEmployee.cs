@@ -25,7 +25,7 @@ namespace A1IskandarAbdullaev
 
         public override string ToString()
         {
-            return base.ToString() + $"\nGross Earnings: {GrossEarnings}/week\n";
+            return "";
         }
     }
 }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleTables;
+
 
 namespace A1IskandarAbdullaev
 {
@@ -14,7 +16,7 @@ namespace A1IskandarAbdullaev
         public CommissionEmployee(int id, string name, EmployeeType type, double sales, double rate) : base(id, name, type)
         {
             GrossSales = sales;
-            CommRate = rate;
+            CommRate = rate / 100;
         }
 
         public override double GrossEarnings
@@ -27,7 +29,7 @@ namespace A1IskandarAbdullaev
 
         public override string ToString()
         {
-            return base.ToString() + $"\nGross Earnings: {GrossEarnings}\n";
+            return "";
         }
     }
 }

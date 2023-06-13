@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleTables;
+
 
 namespace A1IskandarAbdullaev
 {
@@ -35,7 +37,7 @@ namespace A1IskandarAbdullaev
 
         public override string ToString()
         {
-            return base.ToString() + $"\nGross Earnings: {GrossEarnings}\nNet Earnings: {NetEarnings}\nTax: {Tax}\n";
+            return $"";
         }
     }
 }
